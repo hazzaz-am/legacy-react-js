@@ -1,5 +1,6 @@
 import { Component } from "react";
-import Input from "./components/Input";
+import ControlledForm from "./components/forms/ControlledForm";
+// import Input from "./components/Input";
 // import SimpleTimer from "./components/SimpleTimer";
 // import ReactEvents from "./components/ReactEvents";
 
@@ -8,9 +9,18 @@ export default class App extends Component {
 		return (
 			<>
 				{/* <SimpleTimer /> */}
-        {/* <ReactEvents/> */}
-				<Input/>
+				{/* <ReactEvents/> */}
+				{/* <Input/> */}
+				<ControlledForm />
 			</>
 		);
 	}
 }
+
+
+
+
+
+
+
+

@@ -124,7 +124,7 @@ class Input extends Component {
 							<input
 								type="checkbox"
 								name="Python"
-                value="Python"
+								value="Python"
 								checked={this.state.skills.includes("Python")}
 								onChange={this.handleSkillsChange}
 							/>
@@ -134,7 +134,7 @@ class Input extends Component {
 							<input
 								type="checkbox"
 								name="Golang"
-                value="Golang"
+								value="Golang"
 								checked={this.state.skills.includes("Golang")}
 								onChange={this.handleSkillsChange}
 							/>
